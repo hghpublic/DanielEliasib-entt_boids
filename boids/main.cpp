@@ -140,7 +140,6 @@ int main()
     SetTargetFPS(60);
     while (!WindowShouldClose())
     {
-        std::cout << "***********" << std::endl;
         BeginDrawing();
         ClearBackground(background);
         DrawText("BOIDS!", 12, 12, 30, yellow_dark);

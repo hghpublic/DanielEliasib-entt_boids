@@ -239,7 +239,7 @@ namespace boids
 
             auto end      = std::chrono::high_resolution_clock::now();
             auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
-            std::cout << "boid_algo_process took " << duration.count() << " microseconds" << std::endl;
+            // std::cout << "boid_algo_process took " << duration.count() << " microseconds" << std::endl;
         }
 
        protected:

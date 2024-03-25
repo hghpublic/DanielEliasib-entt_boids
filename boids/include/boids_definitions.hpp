@@ -262,7 +262,7 @@ namespace boids
 
             auto end      = std::chrono::high_resolution_clock::now();
             auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
-            std::cout << "Boid Hashing: " << duration.count() << " microseconds" << std::endl;
+            // std::cout << "Boid Hashing: " << duration.count() << " microseconds" << std::endl;
         }
 
        protected:

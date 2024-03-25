@@ -67,7 +67,7 @@ struct render_process : entt::process<render_process, std::uint32_t>
 
         auto end      = std::chrono::high_resolution_clock::now();
         auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
-        std::cout << "render_process took " << duration.count() << " microseconds" << std::endl;
+        // std::cout << "render_process took " << duration.count() << " microseconds" << std::endl;
     }
 
    protected:
@@ -96,7 +96,7 @@ struct movement_process : entt::process<movement_process, std::uint32_t>
 
         auto end      = std::chrono::high_resolution_clock::now();
         auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
-        std::cout << "movement_process took " << duration.count() << " microseconds" << std::endl;
+        // std::cout << "movement_process took " << duration.count() << " microseconds" << std::endl;
     }
 
    protected:
@@ -211,7 +211,7 @@ struct boids_constraints_process : entt::process<boids_constraints_process, std:
 
         auto end      = std::chrono::high_resolution_clock::now();
         auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
-        std::cout << "boids_constraints_process took " << duration.count() << " microseconds" << std::endl;
+        // std::cout << "boids_constraints_process took " << duration.count() << " microseconds" << std::endl;
     }
 
    protected:
