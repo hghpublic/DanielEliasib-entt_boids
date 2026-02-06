@@ -11,3 +11,9 @@ compile_commands.json
 
 raylib/
 libs/raylib/
+
+# macos
+.DS_Store
+
+# cmake
+/build/
