@@ -1,0 +1,17 @@
+= Issues
+
+
+----
+❯ du -sh .git
+423M    .git
+
+❯ du -sh .git/*
+...
+419M    .git/modules
+...
+
+❯ rm -rf .git/modules/raylib
+
+❯ du -sh .git               
+4.0M    .git
+----
